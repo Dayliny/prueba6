@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icono2.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+   
+   
+    <title>Despegá</title>
+
+</head>
+<body>
+    <div id="menu_pestañas">
+
+        <h1>CORPORACIÓN DESPEGÁ AL SERVICIO DE TODOS</h1>
+
+<div id="menu">
+    <ul id="boton">
+      <li> <a href="index.html">INICIO</a></li>
+    </ul>
+</div>
+    </div>
+
+<div class="primer_texto">
+
+    <h2 class="subtitulo">¿A QUÉ NOS DEDICAMOS?</h2>
+
+    <p class="texto">La radio (entendida como radiofonía o radiodifusión, términos no estrictamente sinónimos)​ es un medio de comunicación que se basa en el envío de señales de audio a través de ondas de radio, si bien el término se usa también para otras formas de envío de audio a distancia como la radio por Internet. En Coorporación Q hacemos que esas ondas le den sentido a tu día a día con nuestra programación de forma entretenida y amena.</p>
+
+    <p class="texto">Nuestra Corporación utiliza la radio como un espacio de comunicación, de denuncia y de debate alternativo, donde se estimula y permite la participación de toda la sociedad. No discrimina, por lo que es accesible a toda la población, independientemente del nivel educativo de quien la escucha.</p>
+</div>
+
+<section class="contenedor_galeria">
+    <h2 class="titulo">SERVICIOS</h2>
+
+<div class="caja_galeria">
+    <img src="images/2.jpeg" alt="imagen2">
+    <div class="caja_hover">
+        <h2>Transmisiones Deportivas</h2>
+    </div>
+</div>
+
+<div class="caja_galeria">
+    <img src="images/3.jpeg" alt="imagen3">
+    <div class="caja_hover">
+        <h2>Noticias</h2>
+    </div>
+</div>
+
+<div class="caja_galeria">
+    <img src="images/4.jpeg" alt="imagen4">
+    <div class="caja_hover">
+        <h2>Entretenimiento</h2>
+    </div>
+</div>
+
+<div class="caja_galeria">
+    <img src="images/5.jpeg" alt="imagen5">
+    <div class="caja_hover">
+        <h2>Transmisiones del Juevenil</h2>
+    </div>
+</div>
+
+<div class="caja_galeria">
+    <img src="images/6.jpeg" alt="imagen6">
+    <div class="caja_hover">
+        <h2>Radio Emisión</h2>
+    </div>
+</div>
+
+<div class="caja_galeria">
+    <img src="images/7.jpeg" alt="imagen7">
+    <div class="caja_hover">
+        <h2>Transmision las 24 horas</h2>
+    </div>
+</div>
+</section>
+
+<div class="seccion_formulario">
+<form method="post" action="mailto:daylin.yl@gmail.com" enctype="text/plain" class="form">
+<h2 class="titulo">Suscríbete para recibir las noticias de nuestra página</h2>
+
+<div class="contenedor_formulario">
+     <div class="grupo">
+        <input type="text" required>
+        <label for="Nombre">Nombre</label>
+     </div>
+
+<div class="grupo">
+    <input type="email" name="correo" required>
+    <label for="correo">Correo Electrónico</label>
+</div>
+
+<div class="grupo">
+    <input type="password" required>
+    <label for="contraseña">Contraseña</label>
+</div>
+
+
+<input type="submit" value="Suscribir">
+</div>
+
+</form>
+</div>
+
+<div id="footer">
+    <div class="nombre">
+<h3>Sitio diseñado para Despegá por Daylin Yol</h3>
+    </div>
+</div>
+    
+</body>
+</html>
+
+
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    margin-bottom: 40px;
+    background-image: url("../images/ima.jpeg");
+    background-size: contain;
+}
+
+/*Menú*/
+
+#menu_pestañas{
+margin: 70px, auto;
+background-color: rgb(47, 74, 115);
+font-family: 'Fredoka One', cursiva;
+color: #ffff;
+font-size: 25px;
+text-align: center;
+border-style: double;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 47, 96); 
+}
+#boton{
+    padding: 10px;
+}
+
+#boton li{
+    display: inline;
+}
+
+#boton li a{
+    font-family: 'Indie Flower', cursiva;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding-left: 15px;
+    background-color: rgb(17, 47, 96);
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+#boton li a:hover{
+    background-color: rgb(33, 32, 32);
+}
+
+/*primer texto*/
+
+.primer_texto{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,50%);
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: 'Unbounded', cursiva;
+    font-size: 40px;
+    color: #ffff;
+}
+
+.texto{
+    color: #ffff;
+    text-align: justify;
+    font-family: 'Kalam, cursiva';
+    font-size: 20px;
+    line-height: 200%;
+}
+
+/*Galería*/
+
+.contenedor_galeria{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 50%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Fredoka One', cursiva;
+    color: #ffff;
+    line-height: 100px;
+    width: 100%;
+}
+
+.caja_galeria{
+width: 28%;
+height: 250px;
+margin-bottom: 30px;
+position: relative;
+cursor: pointer;
+overflow: hidden;
+}
+
+.caja_galeria img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caja_galeria:hover .caja_hover{
+    transform: translate(0);
+}
+
+.caja_hover{
+    transform: translate(100%, 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  rgba(7, 35, 80, 0.7);
+    color: #ffff;
+    font: size 20px; 
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s;
+    text-align: center;
+}
+/*Formulario*/
+
+.seccion_formulario{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion_formulario h2{
+    font-family: 'Kalam, cursiva';
+    font-size: 20px;
+    line-height: 15px;
+    
+}
+
+.form{
+    width: 30%;
+    height: 500px;
+    box-shadow: 0 0 6px rgba(28, 37, 67, 0.6);
+}
+
+.contenedor_formulario{
+    width: 80%;
+    margin: 0 auto;
+    height: calc(100% -100px);
+}
+
+.grupo{
+    margin-top: 50px;
+    position: relative;
+}
+
+input{
+    background: none;
+    color: #ffff;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(17, 47, 96);
+}
+
+label{
+    color: #ffff;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: top .5s, font-size .5s, color .5s;
+}
+
+input:focus+label,
+input:valid+label{
+    top: -14px;
+    font-size: 10px;
+    color: rgb(17, 47, 96);
+}
+
+input:invalid{
+    color:rgb(172, 8, 8);
+}
+
+input[type="submit"]{
+    width: 120px;
+    margin: 40px auto 0 auto;
+    background-color: rgb(17, 47, 96);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+input[type="submit"]:hover{
+    background-color:  rgba(17, 47, 96, 70%);
+}
+
+/*Footer*/
+
+#footer{
+    background-color: rgba(0, 0, 0, 50%);
+    margin: 20px;
+    padding: 20px;
+}
+
+.nombre{
+    color: rgb(17, 47, 96);
+    font-family: 'Kalam, cursiva';
+    text-align: center;
+    font-size: 16px;
+}
+
+
